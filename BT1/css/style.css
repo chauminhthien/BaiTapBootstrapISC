@@ -1,0 +1,47 @@
+.navbar-default {
+    background: none;
+    border: none;
+    padding: 15px;
+}
+
+ p.h3{
+	color: #979797;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+ .bd-bottom{
+	border-bottom: 1px solid #e5e5e5;
+}
+.list-unstyled li{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dotted #5f5252;
+}
+.list-unstyled li a{
+	display: block;
+	background: url('../img/icon.png') left center no-repeat;
+	padding-left: 15px;
+
+}
+
+.text-inline{
+	display: inline;
+}
+.txt-color{
+	color: #aea1a4;
+}
+.txt-color-orange{
+	color: orange;
+}
+footer{ 
+	border-top:1px solid #000;
+	height: 50px;
+	line-height: 50px;
+}
+@media (min-width: 768px){  
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+	    margin-left: -15px;
+	    padding-top: 0px;
+	}
+}
+
