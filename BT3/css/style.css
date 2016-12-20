@@ -1,0 +1,101 @@
+section{
+	margin: 15px 0px;
+}
+
+
+.navbar-default {
+    background: #333;
+    border: none;
+    border-radius: 0px;
+    padding: 15px;
+}
+
+ p.h3{
+	color: #979797;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+ p.h4{
+	color: #979797;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+ .bd-bottom{
+	border-bottom: 1px solid #e5e5e5;
+}
+.list-unstyled li{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dotted #5f5252;
+}
+.list-unstyled li a{
+	display: block;
+	background: url('../img/icon.png') left center no-repeat;
+	padding-left: 15px;
+
+}
+
+.text-inline{
+	display: inline;
+}
+.txt-color{
+	color: #aea1a4;
+}
+.txt-color-orange{
+	color: orange;
+}
+
+footer{ 
+	border-top:1px solid #000;
+	min-height: 50px;
+	line-height: 50px;
+	background: #000;
+	color: #fff;
+}
+ul.nav{
+	background: #232323;
+	float: none !important;
+	margin-top: 20px;
+	padding: 0px;
+	
+}
+ul.nav li a{
+	color: #fff !important;
+	text-transform: uppercase;
+
+}
+.bn .left{
+	background: #464646;
+	min-height: 285px;
+	padding-right: 0px;
+}
+.bn .right{
+	
+	padding-left: 0px;
+}
+form .form-group{
+	padding:0px;
+}
+.form-menu .btn{
+	background: orange;
+    color: #fff;
+    border-radius: 0px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0px;
+    width: 60px;
+}
+form input{
+	background: #232323 !important;
+	color: #fff !important;
+    border-radius: 0px !important;
+    height: 25px !important;;
+
+}
+@media (min-width: 768px){  
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+	    margin-left: -15px;
+	    padding-top: 0px;
+	}
+}
+

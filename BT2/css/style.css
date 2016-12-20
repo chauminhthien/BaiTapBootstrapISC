@@ -1,0 +1,66 @@
+.navbar-default {
+    background: #333;
+    border: none;
+    border-radius: 0px;
+    padding: 15px;
+}
+
+ p.h3{
+	color: #979797;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+ .bd-bottom{
+	border-bottom: 1px solid #e5e5e5;
+}
+.list-unstyled li{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dotted #5f5252;
+}
+.list-unstyled li a{
+	display: block;
+	background: url('../img/icon.png') left center no-repeat;
+	padding-left: 15px;
+
+}
+
+.text-inline{
+	display: inline;
+}
+.txt-color{
+	color: #aea1a4;
+}
+.txt-color-orange{
+	color: orange;
+}
+
+footer{ 
+	border-top:1px solid #000;
+	min-height: 50px;
+	line-height: 50px;
+	background: #000;
+	color: #fff;
+}
+ul.nav{
+	background: #232323;
+	
+}
+ul.nav li a{
+	color: #fff !important;
+	text-transform: uppercase;
+}
+.bn .left{
+	background: #dedede;
+	min-height: 280px;
+}
+.bn .right{
+	
+}
+@media (min-width: 768px){  
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+	    margin-left: -15px;
+	    padding-top: 0px;
+	}
+}
+
